@@ -1,14 +1,22 @@
+@font-face {
+	font-family: "Specta Retro Script";
+	src: url("fonts/Specta Retro Script.ttf");
+	src: url("fonts/Specta Retro Script.ttf") format("ttf"), url("fonts/Specta Retro Script.otf") format("opentype"),;
+}
+
 /*************************Menu*************************/
 .navbar {
 	padding: 0;
 }
 
 .navbar-brand {
-	font-size: 35px;
-	font-weight: 650;
+	font-size: 65px;
+	letter-spacing: 2px;
+	font-weight: bold, bold;
+	text-shadow: 0 0 10px black;
 	color: #fff;
-	font-family: 'Lora', serif;
-	padding-top: .33em;
+	font-family: "Specta Retro Script";
+	padding-top: .1em;
 	transition: .5s;
 }
 /*Menu*/

@@ -91,7 +91,7 @@
 
     .navbar-brand {
     	line-height: 1.75em;
-		font-size: 30px;
+		font-size: 35px;
 	}
 
 	.navbar-toggler {
@@ -134,7 +134,8 @@
 
 @media screen and (max-width: 320px) {
 	.navbar-brand.mx-auto {
-		font-size: 1.75em;
+		line-height: 1.75em;
+		font-size: 2em;
 	}
 
 	.hwords {
