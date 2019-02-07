@@ -6,12 +6,12 @@
 
 @media screen and (max-width: 768px) {
 	.col-md-6.first-place {
-	order: 2;
-	-o-order: 2;
-	-moz-order: 2;
-	-webkit-order: 2;
-	-ms-order: 2;
-}
+		order: 2;
+		-o-order: 2;
+		-moz-order: 2;
+		-webkit-order: 2;
+		-ms-order: 2;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -89,9 +89,9 @@
             top:0;
     }
 
-    .navbar-brand {
-    	line-height: 1.75em;
-		font-size: 35px;
+    .navbar-brand.mx-auto {
+    	line-height: 1.5em;
+		font-size: 40px;
 	}
 
 	.navbar-toggler {
